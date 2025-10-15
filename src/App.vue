@@ -82,16 +82,26 @@ export default {
           name: '武器',
           icon: '🔫',
           items: [
-            { name: 'M4A1突击步枪', icon: '🔫', description: '5.56mm口径，精准稳定，射速中等' },
-            { name: 'AK-74突击步枪', icon: '🔫', description: '5.45mm口径，火力强劲，后坐力大' },
-            { name: 'AWP狙击步枪', icon: '🎯', description: '.338口径，远程精准，一枪致命' },
-            { 'name': 'MP5冲锋枪', icon: '🔫', description: '9mm口径，射速快，适合近距离' },
+            { name: 'AKM突击步枪', icon: '🔫', description: '5.56mm口径，精准稳定，射速中等' },
+            { name: 'SCAR-H战斗步枪', icon: '🔫', description: '5.45mm口径，火力强劲，后坐力大' },
+            { name: 'KC17突击步枪', icon: '🔫', description: '5.56mm口径，精准稳定，射速中等' },
+            { name: 'AUG突击步枪', icon: '🔫', description: '9mm口径，射速快，适合近距离' },
+            { name: 'MP7冲锋枪', icon: '💥', description: '5.56mm口径，火力压制，弹药充足' },
+            { name: 'AK-12突击步枪', icon: '🔫', description: '.50口径，威力巨大，精度高' },
+            { name: 'M4A1突击步枪', icon: '🎯', description: '.50口径，反器材狙击步枪' },
             { name: 'M249轻机枪', icon: '💥', description: '5.56mm口径，火力压制，弹药充足' },
-            { name: '沙漠之鹰手枪', icon: '🔫', description: '.50口径，威力巨大，精度高' },
-            { name: '巴雷特M82狙击枪', icon: '🎯', description: '.50口径，反器材狙击步枪' },
-            { name: '霰弹枪', icon: '💥', description: '12号口径，近距离高伤害' },
-            { name: 'P90冲锋枪', icon: '🔫', description: '5.7mm口径，独特造型，高射速' },
-            { name: 'SCAR突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' }
+            { name: 'PTR-32突击步枪', icon: '🔫', description: '5.7mm口径，独特造型，高射速' },
+            { name: 'M14射手步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'M7战斗步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'M250通用机枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'PKM通用机枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'K437突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: '腾龙突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'SR-3M紧凑突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'AS Val突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+            { name: 'ASh-12战斗步枪', icon: '🔫', description: '12.7mm口径，大口径战斗步枪' },
+            { name: 'K416突击步枪', icon: '🔫', description: '7.62mm口径，模块化设计' },
+
           ]
         },
         '头盔': {
@@ -103,9 +113,7 @@ export default {
             { name: '军用头盔L3', icon: '⛑️', description: '高级防护，重量较重，防护全面' },
             { name: '军用头盔L4', icon: '⛑️', description: '顶级防护，重量重，最高防护等级' },
             { name: '军用头盔L5', icon: '⛑️', description: '传奇防护，重量最重，极致防护' },
-            { name: '特种作战头盔', icon: '⛑️', description: '特殊材质，平衡防护与机动' },
             { name: '夜视头盔', icon: '⛑️', description: '集成夜视功能，夜间作战专用' },
-            { name: '通讯头盔', icon: '⛑️', description: '内置通讯设备，团队作战必备' }
           ]
         },
         '护甲': {
@@ -117,37 +125,28 @@ export default {
             { name: '战术背心L3', icon: '🛡️', description: '重型护甲，高防护，机动性下降' },
             { name: '战术背心L4', icon: '🛡️', description: '顶级护甲，极高防护，重量重' },
             { name: '战术背心L5', icon: '🛡️', description: '传奇护甲，最高防护，重量最重' },
-            { name: '防弹衣', icon: '🛡️', description: '全身防护，重量适中，覆盖全面' },
-            { name: '陶瓷护甲', icon: '🛡️', description: '特殊材质，轻量化高防护' },
-            { name: '复合护甲', icon: '🛡️', description: '多层防护，适应多种威胁' }
           ]
         },
         '胸挂': {
           name: '胸挂',
           icon: '🎒',
           items: [
-            { name: '基础胸挂', icon: '🎒', description: '4个弹夹槽，轻便实用' },
-            { name: '标准胸挂', icon: '🎒', description: '6个弹夹槽，平衡容量与重量' },
-            { name: '重型胸挂', icon: '🎒', description: '8个弹夹槽，弹药充足，重量重' },
-            { name: '特种胸挂', icon: '🎒', description: '6个弹夹槽+2个装备槽，多功能' },
-            { name: '突击胸挂', icon: '🎒', description: '10个弹夹槽，火力持续，重量最重' },
-            { name: '医疗胸挂', icon: '🎒', description: '4个弹夹槽+4个医疗槽，支援型' },
-            { name: '爆破胸挂', icon: '🎒', description: '6个弹夹槽+4个爆破槽，爆破专用' },
-            { name: '侦察胸挂', icon: '🎒', description: '4个弹夹槽+6个工具槽，侦察专用' }
+            { name: '基础胸挂(1)', icon: '🎒', description: '4个弹夹槽，轻便实用' },
+            { name: '标准胸挂(2)', icon: '🎒', description: '6个弹夹槽，平衡容量与重量' },
+            { name: '重型胸挂(3)', icon: '🎒', description: '8个弹夹槽，弹药充足，重量重' },
+            { name: '特种胸挂(4)', icon: '🎒', description: '6个弹夹槽+2个装备槽，多功能' },
+            { name: '突击胸挂(5)', icon: '🎒', description: '10个弹夹槽，火力持续，重量最重' }
           ]
         },
         '背包': {
           name: '背包',
           icon: '🎒',
           items: [
-            { name: '小型背包', icon: '🎒', description: '容量小，重量轻，适合快速移动' },
-            { name: '中型背包', icon: '🎒', description: '容量适中，平衡存储与机动性' },
-            { name: '大型背包', icon: '🎒', description: '容量大，重量重，适合持久战' },
-            { name: '军用背包', icon: '🎒', description: '专业设计，容量大，耐用性强' },
-            { name: '战术背包', icon: '🎒', description: '模块化设计，可扩展性强' },
-            { name: '突击背包', icon: '🎒', description: '紧凑设计，快速存取，适合突击' },
-            { name: '医疗背包', icon: '🎒', description: '专用医疗存储，救援必备' },
-            { name: '侦察背包', icon: '🎒', description: '隐蔽设计，侦察专用' }
+            { name: '小型背包(1)', icon: '🎒', description: '容量小，重量轻，适合快速移动' },
+            { name: '中型背包(2)', icon: '🎒', description: '容量适中，平衡存储与机动性' },
+            { name: '大型背包(3)', icon: '🎒', description: '容量大，重量重，适合持久战' },
+            { name: '军用背包(4)', icon: '🎒', description: '专业设计，容量大，耐用性强' },
+            { name: '战术背包(5)', icon: '🎒', description: '模块化设计，可扩展性强' }
           ]
         },
         '子弹等级': {
@@ -165,14 +164,18 @@ export default {
           name: '地图',
           icon: '🗺️',
           items: [
-            { name: '沙漠风暴', icon: '🗺️', description: '开阔沙漠地形，适合远程作战' },
-            { name: '城市废墟', icon: '🗺️', description: '复杂城市环境，适合近距离战斗' },
-            { name: '山地要塞', icon: '🗺️', description: '高低起伏地形，战术多变' },
-            { name: '丛林密林', icon: '🗺️', description: '植被茂密，适合隐蔽作战' },
-            { name: '雪地基地', icon: '🗺️', description: '寒冷环境，视野开阔' },
-            { name: '港口码头', icon: '🗺️', description: '水域环境，海陆结合' },
-            { name: '工业区', icon: '🗺️', description: '复杂工业设施，立体作战' },
-            { name: '军事基地', icon: '🗺️', description: '专业军事设施，攻防激烈' }
+            { name: '大坝', icon: '🗺️', description: '开阔沙漠地形，适合远程作战' },
+            { name: '巴克什', icon: '🗺️', description: '复杂城市环境，适合近距离战斗' },
+            { name: '监狱', icon: '🗺️', description: '高低起伏地形，战术多变' },
+            { name: '航天', icon: '🗺️', description: '植被茂密，适合隐蔽作战' }
+          ]
+        },
+        '等级': {
+          name: '等级',
+          icon: '⭐',
+          items: [
+            { name: '机密', icon: '⭐', description: '高级权限等级，获取机密信息' },
+            { name: '绝密', icon: '⭐⭐', description: '最高权限等级，获取绝密信息' },
           ]
         }
       }
