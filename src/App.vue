@@ -78,6 +78,22 @@ export default {
       lotteryResult: null,
       lotteryHistory: [],
       categories: {
+        '人物': {
+          name: '人物',
+          icon: '⛑️',
+          items: [
+            { name: '盾构', icon: '⛑️', description: '' },
+            { name: '乌鲁鲁', icon: '⛑️', description: '' },
+            { name: '露娜', icon: '⛑️', description: '' },
+            { name: '小麦', icon: '⛑️', description: '' },
+            { name: '红狼', icon: '⛑️', description: '' },
+            { name: '张姐', icon: '⛑️', description: '' },
+            { name: '威风的龙', icon: '⛑️', description: '' },
+            { name: '鼠鼠', icon: '⛑️', description: '' },
+            { name: '无名', icon: '⛑️', description: '' },
+            { name: '老黑', icon: '⛑️', description: '' },
+          ]
+        },
         '武器': {
           name: '武器',
           icon: '🔫',
